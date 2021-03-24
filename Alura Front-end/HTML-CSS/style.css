@@ -1,0 +1,190 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto; /*Para centralizar algo na tela sempre usar margin da esquerda e direita como AUTO */
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /*Tirar o sublinhado do texto */
+}
+
+nav a:hover { /*mudar as propriedades do link ao colocar o mouse em cima*/
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*o que o border-box faz é definir se os valores dados a width e a height serão calculados dentro da caixa */
+    border: solid 2px #000000;
+    border-radius: 10px;
+    
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+}
+
+.produtos li:active { /*mudar as propriedades do link ao clicar com o mouse em cima*/
+    color: #c78c19;
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+}
+
+.produtos-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg"); /*Colocando imagens no backgroud*/
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {  /*Colocando a virgula conesegue-se usar a mesma configuraçõs para mais de uma tag/classe*/
+    font-size: 20px;
+    display: block;
+    margin: 0 0 5px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 8px 15px;
+}
+
+/* css da pagina inicial - index */
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+     text-align: center;
+     font-size: 2em; /*2 vezes o tamanho base da pagina*/
+     margin: 0 0 1em;
+     clear: left; /*Limpa o float a esquerda evitando ds iten abaixo subirem */
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
