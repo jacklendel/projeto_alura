@@ -101,7 +101,6 @@ footer {
 }
 
 
-
 form {
     margin: 40px 0;
     width: 940px;
@@ -179,6 +178,20 @@ td, th {
      clear: left; /*Limpa o float a esquerda evitando ds iten abaixo subirem */
 }
 
+.titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal::before {
+    content: "[ ";
+
+}
+
+.titulo-principal::after {
+    content: " ]";
+
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -231,6 +244,10 @@ td, th {
 
 .itens {
     line-height: 1.5em;
+}
+
+.itens::before {
+    content: "✭";
 }
 
 .itens:first-child {     /*pseudo elemento que serve para não precisar criar uma nova classe em uma lista por exemplo*/
