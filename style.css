@@ -4,6 +4,10 @@ header {
     
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .caixa {
     width: 940px;
     position: relative;
@@ -96,13 +100,12 @@ footer {
     
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 form {
     margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 form label, form legend {  /*Colocando a virgula conesegue-se usar a mesma configuraçõs para mais de uma tag/classe*/
@@ -141,7 +144,9 @@ form label, form legend {  /*Colocando a virgula conesegue-se usar a mesma confi
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px auto 40px;
+    width: 940px;
+    
 }
 
 thead {
@@ -160,6 +165,13 @@ td, th {
     width: 100%;
 }
 
+.principal {
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
      text-align: center;
      font-size: 2em; /*2 vezes o tamanho base da pagina*/
@@ -171,6 +183,7 @@ td, th {
     margin: 0 0 1em;
 }
 
+
 .principal strong {
     font-weight: bold;
 }
@@ -179,12 +192,56 @@ td, th {
     font-style: italic;
 }
 
-.imagembeneficios {
-    width: 60%;
-}
-
 .utensilios {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin:0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background-color: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:first-child {     /*pseudo elemento que serve para não precisar criar uma nova classe em uma lista por exemplo*/
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
